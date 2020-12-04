@@ -1,0 +1,24 @@
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+.input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+}
+.input:focus {
+    outline: none;
+}
+.button {
+    width: 30%;
+    background: rgb(11, 124, 253);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}

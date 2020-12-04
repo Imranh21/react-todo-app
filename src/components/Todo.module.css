@@ -1,0 +1,26 @@
+.container {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 5px;
+    background: rgb(255, 255, 255);
+}
+.checkBox {
+    cursor: pointer;
+}
+.list {
+    list-style: none;
+}
+.button {
+    cursor: pointer;
+    background: rgb(179, 16, 16);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: .6;
+}
