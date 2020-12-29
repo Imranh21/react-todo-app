@@ -4,7 +4,7 @@ import styles from './TodoForm.module.css'
 function TodoForm({inputValue, setInputValue, todos, setTodos}) {
 
     const OnChangeHandler = e => {
-        console.log(e.target.value)
+        
         setInputValue(e.target.value);
     }
 
